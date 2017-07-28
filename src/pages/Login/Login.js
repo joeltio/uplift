@@ -13,7 +13,7 @@ class Login extends React.Component {
                 <LoginField placeholder="Name" />
                 <LoginField placeholder="Email" />
                 <LoginField placeholder="Password" fieldType="password" />
-                <LoginButton>Login</LoginButton>
+                <LoginButton linkTo="Connect">Login</LoginButton>
             </div>
         );
     }
