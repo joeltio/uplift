@@ -15,6 +15,7 @@ class Connect extends React.Component {
                 <h1 styleName="header">Your therapist is waiting to chat with you now</h1>
                 <div styleName="content">
                     <ProfileTestimonial
+                        profilePicSrc="./res/imgs/nick_halden.png"
                         name={name}
                         testimony={testimony} />
                         <p></p>
