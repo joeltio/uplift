@@ -1,0 +1,13 @@
+.name {
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.profile-badge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
