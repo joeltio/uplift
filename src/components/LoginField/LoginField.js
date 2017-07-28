@@ -6,7 +6,9 @@ import styles from "./loginField.css";
 class LoginField extends React.Component {
     render() {
         return (
-            <input type={this.props.fieldType} placeholder={this.props.placeholder} />
+            <input styleName="login-input"
+                   type={this.props.fieldType}
+                   placeholder={this.props.placeholder} />
         );
     }
 }
