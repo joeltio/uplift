@@ -1,0 +1,14 @@
+.profile-testimonial {
+    display: flex;
+}
+
+.testimony {
+    display: inline;
+    color: white;
+    width: 300px;
+    border-left: solid 1px white;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-weight: 300;
+    font-style: italic;
+}
