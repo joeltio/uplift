@@ -1,0 +1,20 @@
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.left, .right {
+    color: black;
+    font-family: "Avenir Next";
+    font-size: 20px;
+    width: 100%;
+    display: block;
+}
+
+.left p, .right p {
+    margin: 0;
+    margin: 10px;
+}

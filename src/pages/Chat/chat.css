@@ -1,0 +1,62 @@
+.chat-page, .top-header h1, .bottom-header h1 {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.chat-content {
+    position: fixed;
+    top: 70px;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: auto;
+}
+
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: #f66;
+}
+
+.bottom-header {
+    position: fixed;
+    padding: 5px 5px 5px 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #ddd;
+}
+
+.message-send {
+    float: right;
+    margin-left: 10px;
+    height: 60px;
+    width: 100px;
+    color: #f66;
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.message-input {
+    height: 50px;
+    width: 80%;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    float:left;
+    border-radius: 5px;
+    border: none;
+}
