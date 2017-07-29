@@ -2,3 +2,13 @@ body {
     margin: 0;
     background-color: #f66;
 }
+
+.active, .active img {
+    height: 130px !important;
+    width: 130px !important;
+    transition: height 0.5s, width 0.5s;
+}
+
+input:focus {
+    outline: none;
+}
