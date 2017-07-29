@@ -19,7 +19,7 @@ class Connect extends React.Component {
                         name={name}
                         testimony={testimony} />
                         <p></p>
-                    <RoundButton>Talk to the therapist now</RoundButton>
+                    <RoundButton linkTo="Feeling">Talk to the therapist now</RoundButton>
                 </div>
             </div>
         );
